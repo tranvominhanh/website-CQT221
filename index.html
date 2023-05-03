@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title> 
+    <link rel="icon" href="web.png" type= "image/x-icon">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+    <link rel="stylesheet" href="aos-master/dist/aos.css">
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">   
+  
+  
+
+    <div class="loader z-2"></div>
+    <!--navbar-->
+  <div class="container-fluid fixed-top m-0 p-0 scroll z-1"> 	
+    <nav class="navbar navbar-expand-lg menu bg-nav" id="nav-scroll">
+  <div class="container-fluid p-0">
+    <a class="navbar-brand d-flex align-items-center text-white fw-bold fs-4 ms-2" href="#"><img src="web.png" alt="logo" class="me-2" style="width: 35px; height: 35px;">CQT221</a>
+    <div class = "order-lg-2 nav-btns mx-auto d-flex align-items-center"> 
+      <div class="search me-2"> 
+        <div class="search-box">
+        <input id="search" class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+          <a>
+        <i class="fa-solid fa-magnifying-glass" style="color: #87CBB9;"></i>
+          </a>
+        </div> 
+      </div>
+   
+      <a href="#contact"><button type="button" class="btn text-white fw-bold me-2 sub" style="background-color: #05BFDB;">Contact us</button></a>
+    </div>
+    <button class="navbar-toggler text-white ms-auto my-auto" style="border: none;" data-bs-theme="dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <ul class="navbar-nav nav nav-pills mx-auto">
+        <li class="nav-item">
+        <a class="nav-link js-scroll-trigger text-white text-uppercase fw-bold me-2 ps-3 pe-3 fs-6" href="#home"><i class="fa-sharp fa-solid fa-house me-2" style="color: #FFD966;"></i>home</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link js-scroll-trigger text-white text-uppercase fw-bold me-2 ps-3 pe-3 fs-6" href="#ttl"><i class="fa-solid fa-star me-2" style="color: #FAAB78;"></i>Thông tin lớp</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link js-scroll-trigger text-white text-uppercase fw-bold ps-3 me-2 pe-3 fs-6" href="#tvl"><i class="fa-solid fa-user me-2 " style="color: #FF9E9E;"></i>Thành viên lớp</a>
+        </li>             
+      </ul>
+    </div>
+  </div>
+</nav>
+  </div>
+    <!--end of navbar-->
+  
+  <!--header-->
+  <header id="home" class="w-100 vh-100 d-flex justify-content-center align-items-center" style="background: url('./Banner.jpg'); background-position: center; background-size: cover;">
+    <div class="container">
+        <div class="content" style="overflow-y: hidden; overflow-x: hidden;" id="home">
+        <div class="d-flex justify-content-center">
+          <h1 class="fw-bold text-white text-center" style="text-shadow: 4px 4px rgb(10, 77, 104); font-size: 40px; font-family: 'Roboto Condensed', sans-serif;">WELLCOME TO OUR WEBSITE</h2>          
+        </div>
+        <div class="text-center">
+          <h2 class="text-white fw-bold mt-2 text-uppercase">Lớp CQT221</h3>       
+          <h4 class="text-white fw-bold mt-2 text-header text-uppercase">Ngành quảng trị mạng máy tính</h3>
+        </div>    
+          <div class="d-flex justify-content-center">
+          <div class="text-center mt-4 me-4">
+            <a href="#ttl" class="if text-white fw-bold text-uppercase">Thông Tin Lớp</a>
+          </div>
+          <div class="text-center mt-4">
+            <a href="#contact" class="if text-white fw-bold text-uppercase">Contact us</a>
+          </div>
+          </div>
+      </div>
+     <div class="custom-shape-divider-bottom-1682737041">
+       <svg data-name="Layer 1" xmlns="./wave.svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+       </svg>
+    </div>       
+      </div>
+    </div>
+  </header>
+  <!--end of header-->
+
+  <!--main-->
+  <main>
+    <section class="section-1 w-100 bg-section-1 scroll" id="ttl">
+      <div class="container-fluid">
+        <div class="title w-100 d-flex justify-content-center mt-5" data-aos="fade-down">
+          <div class="cp me-3"></div><h2 class="text-title text-white text-uppercase">Thông tin lớp</h2><div class="cp ms-3"></div>
+        </div>
+      </div>
+      <div class="container mb-5" style="overflow-y: hidden;">
+      <div class="row">
+
+        <div class="col-sm-12 col-md-4 d-flex justify-content-center mt-5">
+          <div class="box m-0" data-aos="zoom-out">
+            <div class="head-box d-flex">
+              <div class="icon">   
+                <i class="fa-solid fa-book fa-2x" style="color: #ffffff;"></i>
+              </div>
+              <div class="text">              
+                <span class="fw-bold text-white p-0 fs-4">Khoa</span>
+              </div>
+            </div>
+            <div class="text-box">
+              <p class="text-center fw-bold text-white fs-4" style="margin-top: 20%;">Khoa học cơ bản</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-4 d-flex justify-content-center mt-5">
+          <div class="box m-0" data-aos="zoom-out">
+            <div class="head-box d-flex">
+              <div class="icon">   
+                <i class="fa-solid fa-chalkboard-user fa-2x" style="color: #ffffff;"></i>
+              </div>
+              <div class="text">              
+                <span class="fw-bold text-white p-0 fs-4">Lớp</span>
+              </div>
+            </div>
+            <div class="text-box">
+              <p class="text-center fw-bold text-white fs-4" style="margin-top: 20%;">CQT221</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-12 col-md-4 d-flex justify-content-center mt-5">
+          <div class="box m-0" data-aos="zoom-out">
+            <div class="head-box d-flex">
+              <div class="icon">   
+                <i class="fa-solid fa-briefcase fa-2x" style="color: #ffffff;"></i>
+              </div>
+              <div class="text">              
+                <span class="fw-bold text-white p-0 fs-4">Chuyên Ngành</span>
+              </div>
+            </div>
+            <div class="text-box">
+              <p class="text-center fw-bold text-white fs-4" style="margin-top: 20%;">Quản trị mạng máy tính</p>
+            </div>
+          </div>
+        </div>
+
+      <div class="col-sm-12 col-md-4 d-flex justify-content-center mt-5">
+        <div class="box m-0" data-aos="zoom-out">
+          <div class="head-box d-flex">
+            <div class="icon">              
+               <i class="fa-solid fa-person-chalkboard fa-2x" style="color: #ffffff;"></i>
+            </div>
+            <div class="text">              
+              <span class="fw-bold text-white p-0 fs-4">GVCN</span>
+            </div>
+          </div>
+          <div class="text-box">
+            <p class="text-center fw-bold text-white fs-4" style="margin-top: 20%;">Trương Ngọc Yến</p>
+          </div>
+        </div>
+      </div>
+        
+          <div class="col-sm-12 col-md-4 d-flex justify-content-center mt-5">
+        <div class="box m-0" data-aos="zoom-out">
+          <div class="head-box d-flex">
+            <div class="icon">            
+              <i class="fa-solid fa-graduation-cap fa-2x" style="color: #ffffff;"></i>
+            </div>
+            <div class="text">              
+              <span class="fw-bold text-white p-0 fs-4">Số Thành viên lớp</span>
+            </div>
+          </div>
+          <div class="text-box">
+            <p class="text-center fw-bold text-white fs-4" style="margin-top: 20%;">15 Thành viên</p>
+          </div>
+        </div>
+      </div>
+           
+      
+      <div class="col-sm-12 col-md-4 d-flex justify-content-center mt-5">
+        <div class="box m-0" data-aos="zoom-out">
+          <div class="head-box d-flex">
+            <div class="icon">   
+              <i class="fa-solid fa-location-dot fa-2x" style="color: #ffffff;"></i>
+            </div>
+            <div class="text">              
+              <span class="fw-bold text-white p-0 fs-4">Địa chỉ</span>
+            </div>
+          </div>
+          <div class="text-box">
+            <p class="ms-4 mt-3 fw-bold text-white fs-4" style="margin-top: 20%;">176 Nam Kỳ Khởi Nghĩa, Khóm 4, Phường 7, Thành phố Sóc Trăng, Tỉnh Sóc Trăng</p>
+          </div>
+        </div>
+      </div>
+
+      
+
+    </div>
+      </div>
+   </div>     
+    </section>
+    
+
+    <section class="section-2 bg-section-2 w-100 scroll" id="tvl">        
+   </div>
+      <div class="container-fluid">
+          <div class="title w-100 d-flex justify-content-center mt-5" data-aos="fade-down">
+          <div class="cp me-3"></div><h2 class="text-title text-white text-uppercase">Thành viên lớp</h2><div class="cp ms-3"></div>
+        </div>
+        <div class="container mb-5 mt-4">            
+           <div class="row">
+             <div class="col-12 col-md-6 col-lg-4 mx-auto" data-aos="zoom-in-down">
+                <div class="card mx-auto h-100">
+                   <img src="manh.JPG" class="card-img">                
+                <div class="card-body mx-auto">       
+                   <h5 class="text-center mt-3 mb-3">Trần Võ Minh Anh</h5>
+                   <div class="mt-4">
+                     <p class="card-text"><strong>Ngày Sinh: </strong>18/12/2001</p>
+                      <p class="card-text"><strong>Lớp: </strong>CQT221</p>
+                      <p class="card-text"><strong>MSSV: </strong>CQT22118</p>
+                      <a href="https://tranvominhanh.github.io/minhanh20011/" class="btn-info text-white">Xem trang cá nhân</a>
+                  </div>
+               </div>
+             </div>                           
+           </div>
+              <div class="col-12 col-md-6 col-lg-4 mx-auto" data-aos="zoom-in-down">
+                <div class="card mx-auto h-100">
+                   <img src="Cuong.jpg" class="card-img">
+                <div class="card-body mx-auto">       
+                   <h5 class="text-center mt-3 mb-3">Trần Phước Cường</h5>
+                   <div class="mt-4">
+                      <p class="card-text"><strong>Ngày Sinh: </strong>27/10/2004</p>
+                      <p class="card-text"><strong>Lớp: </strong>CQT221</p>
+                      <p class="card-text"><strong>MSSV: </strong>CQT22103</p>
+                      <a href="https://winz204.github.io/tranphuoccuong2710/" class="btn-info text-white">Xem trang cá nhân</a>
+                  </div>
+               </div>
+             </div>                           
+           </div>
+             
+                <div class="col-12 col-md-6 col-lg-4 mx-auto" data-aos="zoom-in-down">
+                <div class="card mx-auto h-100">
+                   <img src="Dai.jpg" class="card-img">
+                <div class="card-body mx-auto">       
+                   <h5 class="text-center mt-3 mb-3">Sơn Văn Đại</h5>
+                   <div class="mt-4">
+                      <p class="card-text"><strong>Ngày Sinh: </strong>19/12/2004</p>
+                      <p class="card-text"><strong>Lớp: </strong>CQT221</p>
+                      <p class="card-text"><strong>MSSV: </strong>CQT22101</p>
+                      <a href="https://vandai19.github.io/vandai19/" class="btn-info text-white">Xem trang cá nhân</a>
+                  </div>
+               </div>
+             </div>                           
+           </div>
+             
+                <div class="col-md-6 col-12 col-lg-4 mx-auto" data-aos="zoom-in-down">
+                <div class="card mx-auto h-100">
+                   <img src="Du.jpg" class="card-img">
+                <div class="card-body mx-auto">       
+                   <h5 class="text-center mt-3 mb-3">Sơn Hoàng Dư</h5>
+                   <div class="mt-4">
+                      <p class="card-text"><strong>Ngày Sinh: CQT221</strong>06/02/2002</p>
+                      <p class="card-text"><strong>Lớp: </strong>CQT221</p>
+                      <p class="card-text"><strong>MSSV: </strong>CQT22106</p>
+                      <a href="https://thienanh2.github.io/abc/" class="btn-info text-white">Xem trang cá nhân</a>
+                  </div>
+               </div>
+             </div>                           
+           </div>
+             
+                <div class="col-md-6 col-12 col-lg-4 mx-auto"  data-aos="zoom-in-down">
+                <div class="card mx-auto h-100">
+                   <img src="Han.jpg" class="card-img">
+                <div class="card-body mx-auto">       
+                   <h5 class="text-center mt-3 mb-3">Trần Thị Ngọc Hân</h5>
+                   <div class="mt-4">
+                     <p class="card-text"><strong>Ngày Sinh: </strong>03/02/2004</p>
+                      <p class="card-text"><strong>Lớp: </strong>CQT221</p>
+                      <p class="card-text"><strong>MSSV: </strong>CQT22113</p>
+                      <a href="https://hnie04.github.io/hannn/" class="btn-info text-white">Xem trang cá nhân</a>
+                  </div>
+               </div>
+             </div>                           
+           </div>
+             
+                <div class="col-md-6 col-12 col-lg-4 mx-auto"  data-aos="zoom-in-down">
+                <div class="card mx-auto h-100">
+                   <img src="Phuc.jpg" class="card-img">
+                <div class="card-body mx-auto">       
+                   <h5 class="text-center mt-3 mb-3">Ngô Minh Phục</h5>
+                   <div class="mt-4">
+                      <p class="card-text"><strong>Ngày Sinh: </strong>19/01/2003</p>
+                      <p class="card-text"><strong>Lớp: </strong>CQT221</p>                    
+                      <p class="card-text"><strong>MSSV: </strong>CQT22104</p>
+                      <a href="https://minhphuc191203.github.io/ngominhphuc/" class="btn-info text-white">Xem trang cá nhân</a>
+                  </div>
+               </div>
+             </div>                           
+           </div>
+             
+                <div class="col-md-6 col-12 col-lg-4 mx-auto" data-aos="zoom-in-down">
+                <div class="card mx-auto h-100">
+                   <img src="vphuoc.jpg" class="card-img">
+                <div class="card-body mx-auto">       
+                   <h5 class="text-center mt-3 mb-3">Nguyễn hoàng vạn Phước</h5>
+                   <div class="mt-4">
+                      <p class="card-text"><strong>Ngày Sinh: </strong>22/12/2004</p>
+                      <p class="card-text"><strong>Lớp: </strong>CQT221</p>
+                      <p class="card-text"><strong>MSSV: </strong>CQT22107</p>
+                      <a href="https://kazetatsumaki.github.io/vanphuoc/" class="btn-info text-white">Xem trang cá nhân</a>
+                  </div>
+               </div>
+             </div>                           
+           </div>
+             
+                <div class="col-md-6 col-12 col-lg-4 mx-auto" data-aos="zoom-in-down">
+                <div class="card mx-auto h-100">
+                   <img src="Qui.jpg" class="card-img">
+                <div class="card-body mx-auto">       
+                   <h5 class="text-center mt-3 mb-3">Trần Văn Quí</h5>
+                   <div class="mt-4">
+                      <p class="card-text"><strong>Ngày Sinh: </strong>22/09/2004</p>
+                      <p class="card-text"><strong>Lớp: </strong>CQT221</p>
+                      <p class="card-text"><strong>MSSV: </strong>CQT22109</p>
+                      <a href="https://tranvanqui.github.io/CQT22109/" class="btn-info text-white">Xem trang cá nhân</a>
+                  </div>
+               </div>
+             </div>                           
+           </div>
+             
+                <div class="col-md-6 col-12 col-lg-4 mx-auto"  data-aos="zoom-in-down">
+                <div class="card mx-auto h-100">
+                   <img src="Ro.jpg" class="card-img">
+                <div class="card-body mx-auto">       
+                   <h5 class="text-center mt-3 mb-3">Nguyễn Văn Rở</h5>
+                   <div class="mt-4">
+                      <p class="card-text"><strong>Ngày Sinh: </strong>15/10/2004</p>
+                      <p class="card-text"><strong>Lớp: </strong>CQT221</p>
+                      <p class="card-text"><strong>MSSV: </strong>CQT22108</p>
+                      <a href="https://nguyenro01.github.io/trangcanhan03/" class="btn-info text-white">Xem trang cá nhân</a>
+                  </div>
+               </div>
+             </div>                           
+           </div>
+             
+                <div class="col-md-6 col-12 col-lg-4 mx-auto" data-aos="zoom-in-down">
+                <div class="card mx-auto h-100">
+                   <img src="Htai.jpg" class="card-img">
+                <div class="card-body mx-auto">       
+                   <h5 class="text-center mt-3 mb-3">Lâm Hữu Tài</h5>
+                   <div class="mt-4">
+                      <p class="card-text"><strong>Ngày Sinh: </strong>16/05/2004</p>
+                      <p class="card-text"><strong>Lớp: </strong>CQT221</p>
+                      <p class="card-text"><strong>MSSV: </strong>CQT22102</p>
+                      <a href="https://lamhuutai22.github.io/ttertwe/" class="btn-info text-white">Xem trang cá nhân</a>
+                  </div>
+               </div>
+             </div>                           
+           </div>
+             
+                <div class="col-md-6 col-12 col-lg-4 mx-auto" data-aos="zoom-in-down">
+                <div class="card mx-auto h-100">
+                   <img src="./Ttai.jpg" class="card-img">
+                <div class="card-body mx-auto">       
+                   <h5 class="text-center mt-3 mb-3">Nguyễn Thành Tài</h5>
+                   <div class="mt-4">
+                      <p class="card-text"><strong>Ngày Sinh: </strong>04/03/2004</p>
+                      <p class="card-text"><strong>Lớp: </strong>CQT221</p>
+                      <p class="card-text"><strong>MSSV: </strong>CQT22115</p>
+                      <a href="https://tainguyenst.github.io/MyWebsite/" class="btn-info text-white">Xem trang cá nhân</a>
+                  </div>
+               </div>
+             </div>                           
+           </div>
+             
+                <div class="col-md-6 col-12 col-lg-4 mx-auto"  data-aos="zoom-in-down">
+                <div class="card mx-auto h-100">
+                   <img src="Tien.jpg" class="card-img">
+                <div class="card-body mx-auto mt-3 mb-3">       
+                   <h5 class="text-center">Ngô Nhật Tiến</h5>
+                   <div class="mt-4">
+                      <p class="card-text"><strong>Ngày Sinh: </strong>08/03/2004</p>
+                      <p class="card-text"><strong>Lớp: </strong>CQT221</p>
+                      <p class="card-text"><strong>MSSV: </strong>CQT22110</p>
+                      <a href="https://tienneit.github.io/nhattien221/" class="btn-info text-white">Xem trang cá nhân</a>
+                  </div>
+               </div>
+             </div>                           
+           </div>
+             
+                <div class="col-md-6 col-12 col-lg-4 mx-auto" data-aos="zoom-in-down">
+                <div class="card mx-auto h-100">
+                   <img src="Toan.jpg" class="card-img">
+                <div class="card-body mx-auto">       
+                   <h5 class="text-center mt-3 mb-3">Nguyễn Thái Toàn</h5>
+                   <div class="mt-4">
+                      <p class="card-text"><strong>Ngày Sinh: </strong>28/11/2003</p>
+                      <p class="card-text"><strong>Lớp: </strong>CQT221</p>
+                      <p class="card-text"><strong>MSSV: </strong>CQT22105</p>
+                      <a href="https://ggwghw41.github.io/thaitoan03/" class="btn-info text-white">Xem trang cá nhân</a>
+                  </div>
+               </div>
+             </div>                           
+           </div>
+             
+                <div class=" col-12 col-md-6 col-lg-4 mx-auto" data-aos="zoom-in-down">
+                <div class="card mx-auto h-100">
+                   <img src="Yen.jpg" class="card-img">
+                <div class="card-body mx-auto">       
+                   <h5 class="text-center mt-3 mb-3">Nguyễn hoàng Kim Yến</h5>
+                   <div class="mt-4">
+                      <p class="card-text"><strong>Ngày Sinh: </strong>15/06/2003</p>
+                      <p class="card-text"><strong>Lớp: </strong>CQT221</p>
+                      <p class="card-text"><strong>MSSV: </strong>CQT22112</p>
+                      <a href="https://nguyenhoangkimyen1506.github.io/CQT221ININ/" class="btn-info text-white">Xem trang cá nhân</a>
+                  </div>
+               </div>
+             </div>                           
+           </div>
+             
+               <div class="col-12 col-md-6 col-lg-4 mx-auto" data-aos="zoom-in-down">
+                <div class="card mx-auto h-100">
+                   <img src="dat.jpg" class="card-img">
+                <div class="card-body mx-auto">       
+                   <h5 class="text-center mt-3 mb-3">Trần Gia Đạt</h5>
+                   <div class="mt-4">
+                      <p class="card-text"><strong>Ngày Sinh: </strong>03/06/2001</p>
+                      <p class="card-text"><strong>Lớp: </strong>CQT221</p>
+                      <p class="card-text"><strong>MSSV: </strong>CQT22116</p>
+                      <p class="fw-bold text-center" style="color: #E96479;">Tạm nghỉ nên không có trang cá nhân</p>
+                  </div>
+               </div>
+             </div>                           
+           </div>
+             
+         </div>                   
+        </div>
+      </div>
+    </section>
+    
+    <section id="contact" class="section-3 w-100 scroll" id="contact" style="background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.7)),url('./Contact.jpg'); background-position: center; background-size: cover;">
+      <div class="container-fluid">
+       
+        <div class="row">
+          <div class="col-12">
+           <div class="title w-100 d-flex justify-content-center mt-5" data-aos="fade-down">
+          <div class="cp me-3"></div><h2 class="text-title text-white text-uppercase">Contact us</h2><div class="cp ms-3"></div>
+        </div>
+      </div>
+          
+          <div class="col-12 col-md-6 p-2 d-flex justify-content-center">
+            <form class="mt-3 mb-5" data-aos="fade-left">
+              <div class="coltrol d-flex">             
+              <div> 
+                <label for="exampleFormControlInput1" class="form-label text-white fw-bold">Tên</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Tên của bạn">                 
+              </div> 
+               <div class="ms-4 mb-5"> 
+                <label for="exampleFormControlInput1" class="form-label text-white fw-bold">Số điện thoại</label>
+                <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="số điện thoại của bạn">                 
+              </div>
+              </div>
+              <div class="mb-5"> 
+                <label for="exampleFormControlInput1" class="form-label text-white fw-bold">Địa chỉ Email</label> 
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">                
+              </div>
+              <div> 
+                <label for="exampleFormControlTextarea1" class="form-label text-white fw-bold">Tin nhắn</label> 
+                <textarea class="form-control" placeholder="Tin nhắn của bạn cho chúng tôi"  id="exampleFormControlTextarea1" rows="3">               
+                </textarea> 
+              </div>
+            </form>
+          </div>
+          <div class="col-12 col-md-6 " data-aos="fade-right">	
+             <div class= "ms-4 mt-5" style="margin-bottom: 100px;">
+                       
+                        <div class="i-a d-flex">
+                            
+                          <i class = "fas fa-envelope fa-2x"></i>
+                          <span class = "text-white mt-3 ms-3 fw-bold">
+                            support@gmail.com
+                          </span>
+                        </div>
+                      
+                       <div class="i-a d-flex mt-5">
+                           <i class = "fas fa-map-marked-alt fa-2x"></i>
+                           <span class = "text-white mt-1 ms-3 fw-bold">                              
+                              176 Nam Kỳ Khởi Nghĩa, Khóm 4, Phường 7,Thành phố Sóc Trăng, Tỉnh Sóc Trăng
+                           </span>
+                        </div>
+                      
+                      <div class="i-a d-flex mt-5">
+                           <i class = "fas fa-phone-alt fa-2x"></i>
+                           <span class = "text-white mt-3 ms-3 fw-bold">                          
+                              0299 3611963
+                           </span>
+                        </div>
+             </div>
+             
+             </div>
+          </div>
+        
+        </div>
+      </div>
+        
+      
+    </section>
+  </main>
+  <!--end of main-->
+
+  <!--footer-->
+  <footer class="bg-footer">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 h-100 ps-3 pb-3">
+                    <h4 class = "text-white fw-bold mt-4">Links</h4>
+                    <ul class = "list-unstyled">
+                        <li class = "my-3">
+                            <a href = "#home" class = "text-white text-decoration-none">
+                                <i class = "fas fa-chevron-right me-1"></i> Home
+                            </a>
+                        </li>
+                        <li class = "my-3">
+                            <a href = "#ttl" class = "text-white text-decoration-none">
+                                <i class = "fas fa-chevron-right me-1"></i> Thông tin lớp
+                            </a>
+                        </li>
+                        <li class = "my-3">
+                            <a href = "#tvl" class = "text-white text-decoration-none">
+                                <i class = "fas fa-chevron-right me-1"></i> Thành viên lớp
+                            </a>
+                        </li>   
+                         <li class = "my-3">
+                            <a href = "#tvl" class = "text-white text-decoration-none">
+                                <i class = "fas fa-chevron-right me-1"></i> Thành viên lớp
+                            </a>
+                        </li>          
+                    </ul>                
+              </div>
+        
+        <div class="col-sm-12 col-md-6 d-flex justify-content-center">
+          <div class="content-footer mt-4">
+          <div>
+          <h4 class = "text-white text-center fw-bold mb-3">Follow us</h4>
+          </div>
+                    <div>
+                        <ul class = "list-unstyled d-flex i-f">
+                            <li>
+                                    <i class="fab fa-facebook-f me-4" style="color: white;"></i>
+                                
+                            </li>
+                            <li>
+                                    <i class = "fab fa-twitter me-4" style="color: white;"></i>
+                                
+                            </li>
+                            <li>
+                                    <i class = "fab fa-instagram me-4" style="color: white;"></i>
+                                
+                            </li>
+                            <li>
+                                    <i class="fab fa-pinterest me-4" style="color: white;"></i>
+                               
+                            </li>
+                        </ul>
+           
+                </div>
+            </div>
+          </div>
+
+      <div class="col-12 border-top d-flex justify-content-around" style="overflow-y: hidden;">
+        <div class="mt-2">
+          <p class="text-center text-white m-0 fw-bold">Designer</p>
+          <p class="text-center text-white">Ngô Minh Phục</p>
+        </div>
+         <div class="mt-2">
+          <p class="text-center text-white m-0 fw-bold">Information</p>
+          <p class="text-center text-white">Trần Võ Minh Anh</p>
+        </div>
+      </div>
+    </div>
+</div>
+  </footer>
+  <!--footer-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="aos-master/dist/aos.js"></script>
+  <script>
+  AOS.init();
+</script>
+
+<script type="text/javascript">    
+
+           $('.js-scroll-trigger').click(function() {
+
+    $('.navbar-collapse').collapse('hide');
+
+  });
+
+</script>
+ <script>    
+$(document).ready(function(){
+    $(window).scroll(function(){
+        if($(window).scrollTop() > $(window).height()){
+            $(".menu").css({"background-color":"#088395"});   
+        }
+        else{
+            $(".menu").css({"background-color":"rgb(8, 131, 149, 0.8)"});
+        }
+
+    })
+})
+
+</script>
+<script>
+window.addEventListener("load", () => {
+  const loader = document.querySelector(".loader");
+
+  loader.classList.add("loader--hidden");
+
+  loader.addEventListener("transitionend", () => {
+    document.body.removeChild(loader);
+  });
+});
+</script>
+
+</body>
+</html>
