@@ -200,33 +200,6 @@ a{
   box-shadow: 0px 10px 6px -6px rgba(0,0,0,0.2);
   transition: 0.5s ease;
 }
-.custom-shape-divider-bottom-1682737041 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.custom-shape-divider-bottom-1682737041 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 99px;
-}
-
-.custom-shape-divider-bottom-1682737041 .shape-fill {
-    fill: #1A5F7A;
-}
-
-/** For mobile devices **/
-@media (max-width: 767px) {
-    .custom-shape-divider-bottom-1682737041 svg {
-        width: calc(100% + 1.3px);
-        height: 112px;
-    }
-}
 /* end of header */
 
 /* main */
